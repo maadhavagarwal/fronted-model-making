@@ -1,0 +1,25 @@
+.Navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #d8e3ee;
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 800;
+   
+}
+.header{
+    font-size: 30px;
+    font-weight: bold;
+    color: #38515b;
+    margin-left: 0px;
+}
+.home{
+    font-size: 20px;
+    font-weight: bold;
+    color: #38515b;
+    /* margin-left: 100px; */
+}

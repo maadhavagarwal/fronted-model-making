@@ -1,0 +1,91 @@
+.login{
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+background-color: #77dd974f;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 200px;
+    margin-left: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 20px 2px #000000;
+}
+.signup{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+.login Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.input{
+    margin-left: 5px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    padding: 5px;
+    font-size: 16px;
+
+
+}
+.label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.check{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    width:300px;
+    height: 20px;
+}
+.checks{
+    margin-left: -200px;
+}
+.FormButton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(93, 229, 229);
+    border: 1px solid #141313;
+    border-radius: 9px;
+}
+@media (max-width: 600px) {
+    .login{
+        width: 300px;
+        margin-left: 20px;
+    }
+    .login Form{
+        margin-left: 0px;
+    }
+    .input{
+        margin-left: 5px;
+        width: 250px;
+        height: 50px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 16px;
+    
+    }
+    .check{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        width:250px;
+        height: 20px;
+    }
+    
+    
+}
